@@ -1,0 +1,11 @@
+{
+  "/categories/": "/categories",
+  "/category/:categoryId/": "/categories?categoryId=:categoryId&singular=1",
+  "/products/:categoryId/:offset/:limit/": "/products?categoryId=:categoryId&_start=:offset&_limit=:limit",
+  "/products/:categoryId/": "/products?categoryId=:categoryId",
+  "/offers/:categoryId/count/": "/productCounts?categoryId=:categoryId&singular=1",
+  "/product/:productId/": "/products?productId=:productId&singular=1",
+  "/offers/:productId/:offset/:limit/": "/offers?productId=:productId&_start=:offset&_limit=:limit",
+  "/offers/:productId/": "/offers?productId=:productId",
+  "/offer/:offerId/": "/offers?offerId=:offerId&singular=1"
+}
