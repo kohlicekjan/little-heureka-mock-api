@@ -34,7 +34,7 @@ $ npm run regenerate
 ```
 
 ## API Reference
-This API is based on the [original api](https://catalogue9.docs.apiary.io/).
+This API is based on the [original API](https://catalogue9.docs.apiary.io/).
 
 ```
 GET /categories/
